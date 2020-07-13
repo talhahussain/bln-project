@@ -1,0 +1,43 @@
+.login-container{
+
+     padding-left: 0px;
+}
+.image-container {
+     position: relative;
+     width: 100%;
+     height: 100%;
+}
+.image-container .overlay {
+     position: absolute;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 100%;
+     display: none;
+     color: #FFF;
+}
+.image-container .overlay {
+     display: block;
+     background: rgba(0, 0, 0, .7);
+}
+.car-image{
+
+     width: 100%;
+     height: 100vh;
+     max-height: 100vh;
+}
+.register-text{
+
+     position: absolute;
+     top: 25%;
+}
+.register-text p {
+
+     padding: 0px;
+     margin: 0px;
+     font-size: 20px;
+}
+.register-text button {
+
+     margin-top: 20px;
+}
